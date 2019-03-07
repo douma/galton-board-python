@@ -1,6 +1,6 @@
 ![](https://images.weserv.nl?url=https://www.python.org/static/community_logos/python-logo-master-v3-TM.png&w=300)
 
-# Galton Board (Python)
+# Galton Board 
 
 ![](https://images.weserv.nl?url=mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
 
