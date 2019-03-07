@@ -1,3 +1,5 @@
+![](https://images.weserv.nl?url=https://www.python.org/static/community_logos/python-logo-master-v3-TM.png&w=300)
+
 # Galton Board (Python)
 
 ![](https://images.weserv.nl?url=mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif)
@@ -6,18 +8,6 @@
 by Sir Francis Galton to demonstrate the central limit theorem, in particular that the normal
 distribution is approximate to the binomial distribution. Among its applications, it afforded
 insight into regression to the mean or "regression to mediocrity".
-
-## PHP Version
-
-See https://github.com/douma/galton-board
-
-## Java Version
-
-See https://github.com/douma/galton_board_java
-
-## JavaScript Version
-
-See https://github.com/douma/galton_board_javascript
 
 ## Cucumber
 
