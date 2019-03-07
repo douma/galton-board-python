@@ -50,4 +50,10 @@ Run `python src/Main.py`
 
 # Run tests
 
+## Unit 
+
 `python -m unittest tests.{file_name}`
+
+## Feature
+
+`behave`
