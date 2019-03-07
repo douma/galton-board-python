@@ -6,6 +6,7 @@ class Tray:
     def __init__(self, number):
         self.number = number; 
 
+    @staticmethod 
     def listFromLength(length):
         trays = [];
         for x in range(length):
@@ -13,7 +14,7 @@ class Tray:
         return trays;
 
     def withBullet(self, bullet):
-        newBullets = self.bullets.copy();
+        newBullets = list(self.bullets);
         newBullets.append(bullet);
         newTray = Tray(self.number);
         newTray.bullets = newBullets;

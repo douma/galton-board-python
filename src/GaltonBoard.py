@@ -15,7 +15,7 @@ class GaltonBoard:
     def _getResultTray(self, bullet):
         position = bullet.getPosition();
         middle = self._middle();
-        trayPosition = math.floor(middle + position);
+        trayPosition = int(math.floor(middle + position));
         for tray in self.trays:
             if tray.getNumber() == trayPosition:
                 return tray;
