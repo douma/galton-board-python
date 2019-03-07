@@ -12,7 +12,8 @@ class BulletTest(unittest.TestCase):
         bullets = Bullet.listFromLength(10);
         bullet = bullets[0]
         bullet = bullet.dropLeft();
-        self.assertEqual(-0.5,bullet.getPosition())
+        bullet = bullet.dropLeft();
+        self.assertEqual(-1,bullet.getPosition())
 
     def test_bullet_should_drop_right(self):
         bullets = Bullet.listFromLength(10);

@@ -9,7 +9,7 @@ class Bullet:
     def listFromLength(length):
         balls = [];
         for x in range(length):
-            balls.append(Bullet(x));
+            balls.append(Bullet(0));
         return balls;
 
     def dropLeft(self):
