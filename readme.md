@@ -15,6 +15,10 @@ See https://github.com/douma/galton-board
 
 See https://github.com/douma/galton_board_java
 
+## JavaScript Version
+
+See https://github.com/douma/galton_board_javascript
+
 ## Cucumber
 
 ![](https://images.weserv.nl/?url=cdn-images-1.medium.com/max/1200/1*oPCrD81z6KzgA20OhiTIQg.png&w=250)
