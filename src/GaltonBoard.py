@@ -47,7 +47,7 @@ class GaltonBoard:
 
     def dropBullets(self):
         galtonboard = self;
-        for bullet in self.bullets:
+        for bullet in galtonboard.bullets:
             galtonboard = galtonboard._dropBullet(bullet);
         return galtonboard; 
 
