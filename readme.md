@@ -47,3 +47,11 @@ Run `python src/Main.py`
 ## Feature
 
 `behave`
+
+## Activate virtual environment
+
+```
+virtualenv -p python3 myenv
+source myenv/bin/activate
+pip3 install -r requirements.txt
+```

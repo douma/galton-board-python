@@ -3,10 +3,6 @@ import math
 
 class GaltonBoard:
 
-    trays = []
-    bullets = []
-    dropPolicy = None;
-
     def __init__(self, trays, bullets, dropPolicy):
         self.trays = trays;
         self.bullets = bullets;

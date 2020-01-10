@@ -2,8 +2,6 @@ from src.DropPolicies.BaseDropPolicy import BaseDropPolicy
 
 class LeftRightDropPolicy(BaseDropPolicy):
 
-    position = None;
-
     def __init__(self):
         self.position = self.LEFT;
 

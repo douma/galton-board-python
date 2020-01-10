@@ -1,10 +1,8 @@
 class Tray:
 
-    bullets = [];
-    number = 0;
-
     def __init__(self, number):
-        self.number = number; 
+        self.number = number;
+        self.bullets = [];
 
     @staticmethod 
     def listFromLength(length):

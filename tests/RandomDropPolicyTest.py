@@ -9,7 +9,7 @@ class RandomDropPolicyTest(unittest.TestCase):
         nextDirection = randomPolicy.direction();
         while(nextDirection == firstDirection):
             nextDirection = randomPolicy.direction();
-        self.assertNotEquals(firstDirection, nextDirection);
+        self.assertNotEqual(firstDirection, nextDirection);
 
 if __name__ == '__main__':
     unittest.main()
